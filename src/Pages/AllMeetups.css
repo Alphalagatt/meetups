@@ -1,0 +1,26 @@
+.loader{
+    border-radius: 50%;
+    border-top-color: rgba(38, 73, 92,1);
+    border-style: solid;
+    border-width: 20px;
+    border-bottom-color:transparent ;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    width: 100px;
+    height: 100px;
+    animation: myLoader 2s ease 0s infinite backwards;
+    margin: auto ;
+    margin-top: 10%;
+
+
+}
+
+.main-parent{
+    
+}
+
+@keyframes myLoader {
+    to{
+        transform: rotate(1turn);
+    }
+}

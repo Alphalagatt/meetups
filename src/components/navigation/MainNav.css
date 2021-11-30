@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 50px;
+    
+}
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-block;
+    padding-left: 30px;
+    padding-top: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+li,a:hover{
+    color: #c66b3d;
+}
+
+button{
+    background-color: rgb(38, 73, 92);
+    color: #e5e5dc;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: large;
+    margin-top: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color: #c66b3d;
+}
+.badge{
+    background-color: #c66b3d;
+    padding: 2px 2px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
